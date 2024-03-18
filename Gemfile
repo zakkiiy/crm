@@ -41,6 +41,13 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+# 追加
+gem "bcrypt"
+gem "rails-i18n"
+gem "kaminari"
+gem "date_validator"
+gem "valid_email2"
+gem "nokogiri"
 
 # Use Sass to process CSS
 # gem "sassc-rails"
@@ -68,5 +75,8 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
-
+  # 追加
+  gem "webdrivers"
+  gem "rspec-rails"
+  gem "factory_bot_rails"
 end
